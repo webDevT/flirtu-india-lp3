@@ -1,0 +1,853 @@
+@import "vars"
+
+
+//start global style
+body
+    background: #000
+    background-image: radial-gradient(90.67% 90.67% at 50% 50%, #192E79 0%, rgba(0, 0, 0, 0) 100%)
+    background-size: 100% 968px
+    background-position: top -118px center
+    background-repeat: repeat-y
+    margin: 0 
+    padding: 0
+    font-family: $main-font
+    font-weight: 400
+    color: $main-color
+a,
+a:hover 
+    text-decoration: none
+.container 
+    width: 87.200vw
+    max-width: 400px
+    margin-left: auto 
+    margin-right: auto
+//end global style
+
+//start footer style
+.footer 
+    background: #F2F2F2
+    padding: 34px 0
+    font-size: 13px
+    text-align: center
+.footer__logo 
+    margin-bottom: 29px
+    display: block
+.footer__menu 
+    display: flex 
+    justify-content: center
+    flex-wrap: wrap
+    align-items: center
+    
+.footer__menu-link
+    padding: 4px 13px
+    color: $main-color
+.footer__menu-link:hover 
+    color: $main-color
+.footer__copy
+    padding-top: 20px
+//end footer style
+
+//start start dating-wrapper style
+.start-dating
+    padding-bottom: 54px
+    .container 
+        background: #fff
+        border-radius: 24px
+        padding-top: 28.65px
+        padding-bottom: 24px
+        text-align: center
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 4px 8px rgba(0, 0, 0, 0.06)
+.start-dating__header
+    display: flex 
+    align-items: center
+    justify-content: center
+    font-weight: 500
+    color: #fff
+    padding-top: 23px
+    padding-bottom: 23px
+    font-size: 14px
+    img 
+        display: block
+        margin-left: 8px 
+        margin-right: 8px
+
+.button 
+    background: linear-gradient(84.83deg, #0BF0C7 -0.98%, #39F3FF 106.01%)
+    border-radius: 8px
+    display: flex 
+    justify-content: center
+    align-items: center
+    height: 56px
+    color: #130F76
+    font-weight: 700
+    font-size: 18px
+    width: 85.321%
+    margin: 0 auto
+
+
+.city 
+    position: relative
+    background: linear-gradient(88.09deg, #4d43f6 3.93%, #8A14F5 98.12%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    background-clip: text
+    text-fill-color: transparent
+.city:after 
+    content: ""
+    position: absolute
+    bottom: -17px
+    transform: translateY(50%)
+    right: 0 
+    width: 100%
+    height: 7px
+    border: solid 7px #0BF0C7
+    border-color: #0BF0C7 transparent transparent transparent
+    border-radius: 90%/100% 100% 0 0
+    transform: rotate(-1deg)
+.photo-wrapper 
+    width: 100%
+    height: 291px
+    max-width: 700px
+    position: relative
+    margin-bottom: 23px
+.photo-s
+    position: absolute
+    object-fit: cover
+    object-position: center
+    border-radius: 24px
+.photo1  
+    top: 2.400vw
+    left: 17.379vw
+    top: 8px 
+    left: 65px 
+    width: 110px
+    height: 149px 
+.photo2    
+    top: 0 
+    right: 10px
+    width: 112px
+    height: 110px 
+.photo3 
+    left: 0
+    top: 120px
+    border-top-left-radius: 0
+    border-bottom-left-radius: 0
+    width: 112px
+    height: 157px 
+.photo4   
+    top: 88px
+    left: 135px
+    width: 157px
+    height: 163px 
+.photo5 
+    bottom: 0 
+    right: 0
+    border-top-right-radius: 0
+    border-bottom-right-radius: 0
+    width: 116px
+    height: 101px 
+.start-dating__footer
+    display: flex 
+    align-items: center
+    justify-content: center
+    opacity: 0.5
+    font-size: 13px 
+    margin-top: 24px
+    img 
+        display: block 
+        margin-right: 5px
+.start-dating__item
+    display: flex 
+    align-items: center
+    margin-bottom: 13px
+.start-dating__list 
+    width: 256px 
+    margin: 0 auto
+    font-size: 18px
+    color: #130F76
+    font-weight: 500
+    width: 85.321%
+.start-dating__num 
+    width: 30px
+    height: 30px
+    background: #1ED1F8
+    border-radius: 50% 
+    display: flex 
+    justify-content: center 
+    align-items: center
+    color: #fff
+    font-size: 20px
+    font-weight: 700
+    margin-right: 16px
+.start-dating__num--blue
+    background: #1E68F8
+//end start dating-wrapper
+
+// start save wrapper style
+.save-wrapper
+    padding-top: 100px
+    padding-bottom: 46px
+    position: relative
+    .container
+        background: linear-gradient(180deg, #5F01A5 0%, rgba(95, 1, 165, 0.47) 100%)
+        border-radius: 24px
+        padding-top: 96px
+        padding-left: 30px 
+        padding-right: 30px
+        padding-bottom: 33px
+        box-sizing: border-box
+        text-align: center
+
+.save-heart
+    position: absolute
+    left: 50%
+    transform: translateX(-50%) translateY(-20%)
+.save-wraper__title
+    color: #0BF0C7
+    font-weight: 700
+    font-size: 22px
+    padding-bottom: 25px
+.save-images 
+    display: flex 
+    align-items: center
+// end save wrapper style
+
+
+
+//start photo icons style 
+.icon 
+    position: absolute
+.icon1
+    top: 30px
+    left: 198px
+.icon2 
+    top: 83px
+    left: 34px
+.icon3 
+    right: 9.83px
+    top: 108px
+.icon4
+    top: 229px
+    left: 120pz 
+//end photo icons style
+.city-row 
+    white-space: nowrap  
+
+//start header style
+.main-title 
+    text-align: center
+    margin-bottom: 43px
+    font-size: 36.9px 
+    font-weight: 700
+    color: #fff
+    line-height: 1.2
+    text-align: center
+    letter-spacing: -0.02em
+    z-index: 1
+    position: relative
+    padding-top: 23px
+.main-title__num
+    letter-spacing: -0.02em
+    background: linear-gradient(84.83deg, #0BF0C7 -0.98%, #39F3FF 106.01%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    background-clip: text
+    text-fill-color: transparent
+    font-weight: 700
+    font-size: 73.8px
+    line-height: 1
+.header 
+    .button 
+        width: 235px
+        margin-bottom: 28px
+        position: relative
+        z-index: 1
+.header__text
+    text-align: center
+    color: #fff
+    padding-bottom: 35px
+    font-size: 18px
+    font-weight: 500
+
+.header 
+    position: relative 
+.header__photo1
+    position: absolute
+    top: 19px
+    right: -30px
+    height: 124px 
+    width: 124px 
+    overflow: hidden
+    border-radius: 50%
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.2)
+    img 
+        width: 100% 
+        object-fit: cover 
+        object-position: center
+.header__photo2 
+    left: -41px 
+    top: 129px
+    position: absolute
+    width: 128px 
+    height: 121px
+    border-radius: 50%
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.04), 0px 8px 16px rgba(0, 0, 0, 0.2)
+    img 
+        object-fit: cover 
+        object-position: center
+        width: 100%
+        min-height: 100%
+
+.header__photo3
+    right: -22px
+    top: 218px
+    position: absolute
+    img 
+        object-fit: cover 
+        object-position: center
+        width: 100%
+        min-height: 100%
+.header 
+    width: 400px
+    margin-left: auto 
+    margin-right: auto  
+.header-icon3
+    position: absolute 
+    top: 53px 
+    left: 53px
+    z-index: 11
+.header-icon2
+    top: 225px
+    left: 25px
+    position: absolute
+.header-icon1
+    position: absolute
+    right: 6px
+    top: 100px
+//end header style
+
+.save-image1
+    width: 74px 
+    height: 75px
+    border-radius: 50% 
+    overflow: hidden
+    transform: translateX(15px)
+    img 
+        width: 100%
+        object-position: center
+        object-fit: cover
+.save-image3
+    width: 74px 
+    height: 75px
+    border-radius: 50% 
+    overflow: hidden
+    transform: translateX(-15px)
+    img 
+        width: 100%
+        object-position: center
+        object-fit: cover
+.save-image2
+    width: 106px 
+    height: 106px
+    border-radius: 50% 
+    overflow: hidden
+    z-index: 1
+    img 
+        width: 100%
+        object-position: center
+        object-fit: cover
+.save-images
+    margin-bottom: 21px
+.save-wrapper__item
+    color: #fff
+    font-size: 20px
+    font-weight: 500
+    padding-bottom: 11px
+    padding-top: 11px
+    position: relative
+.save-wrapper__item:after 
+    content: ''
+    width: 90px 
+    height: 1px
+    background: rgba(255, 255, 255, 0.32)
+    position: absolute 
+    bottom: 0 
+    left: 50% 
+    transform: translateX(-50%)
+.save-wrapper__item:last-child:after 
+    display: none
+.save-wrapper 
+    .start-dating__footer
+        color: #fff
+        opacity: 0.5
+    .button 
+        width: 100%
+.save-wrapper__list
+    padding-bottom: 32px
+
+//stat flirtu simulation style
+.flirtu-simulation
+	width: 34.5vh
+	height: 70vh
+	background-image: url('../img/phone.png'), url('../img/bg.jpg')
+	margin: 0 auto
+	background-size: 100%
+	border-radius: 4vh
+	box-sizing: border-box
+.flirtu-simulation-container
+	width: 34.5vh
+	height: 70vh
+	border-radius: 4vh
+	padding: 1.8vh 1.9vh
+	padding-right: 2.1vh
+	box-sizing: border-box
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+.telegram-header
+	background: #517da2
+	border-top-left-radius: 3vh
+	border-top-right-radius: 3vh
+	padding: 1.2vh 2vh
+	color: #fff
+	display: flex
+	align-items: center
+	justify-content: space-between
+.flirtu-logo 
+	width: 4vh
+	height: 4vh
+	background: url('../img/f.jpg')
+	background-size: 100%
+	background-position: center
+	border-radius: 50%
+.back-arrow 
+	width: 3vh
+	height: 3vh
+	display: block
+	margin-right: 1.5vh
+	background: url('../img/back.svg')
+	background-size: 100%
+	background-position: center
+.telegram-header__left
+	display: flex
+	align-items: center
+.telegram-header__text
+	margin-left: 1vh
+.telegram-header__title
+	font-size: 2vh
+	font-weight: 500
+.telegram-header__sub-title
+	font-size: 1.6vh
+	font-weight: 300
+.telegram-header__dot
+	width: 0.6vh
+	height: 0.6vh 
+	background: #fff
+	border-radius: 50%
+	margin-bottom: 0.3vh
+.telegram-header__right
+	padding-right: 1vh
+.telegram-header__bot:last-child 
+	margin-bottom: 0
+
+
+.buttons-wrapper
+	background: #f1f2f6
+	border-bottom-left-radius: 3vh
+	border-bottom-right-radius: 3vh
+	padding: 1vh 1.5vh
+	display: flex
+	justify-content: space-between
+	align-items: center
+.button-s
+	background: #aab6bf
+	width: 49%
+	padding: 1.5vh 0  
+	display: flex
+	justify-content: center
+	align-items: center
+	box-sizing: border-box
+	border-radius: 0.3vh
+	font-size: 3vh
+.telegram-content
+	height: 54vh
+	overflow-y: hidden
+	overflow-x: hidden
+	display: flex
+	flex-direction: column
+	justify-content: flex-end
+	padding: 2vh 2vh
+.profile 
+	width: 90%
+	border: 0.2vh solid #fff
+	background: #fff
+	border-radius: 0.7vh
+	overflow: hidden
+
+	img 
+		width: 100%
+		border-radius: 0.7vh
+.user-name,
+.activity,
+.got-it
+	font-size: 1.8vh
+	padding: 0vh 1vh
+	padding-bottom: 0.5vh
+.activity,
+.got-it
+	display: flex
+	.img 
+		width: 2.5vh
+		margin-right: 0.5vh 
+		display: block
+		height: 2.5vh
+.activity-img
+	background: url('../img/timer-483.svg')
+	background-size: 100% 
+	background-position: center
+	background-repeat: no-repeat 
+.got-it-img
+	background: url('../img/gift.png')
+	background-size: 100% 
+	background-position: center
+	background-repeat: no-repeat 
+.telegram-content__item
+	margin-top: 1vh
+.dislike,
+.like
+	align-self: flex-end
+	font-size: 6vh
+	//display: none
+	margin-bottom: 2vh
+	margin-top: 2vh
+	animation: scale-anim3
+	animation-duration: 1s	
+	animation-delay: 0.2s	
+	transform: scale(1)
+@keyframes scale-anim3
+  0%
+    transform: scale(1) rotate(0)
+  20%
+   	transform: scale(1.2) rotate(25deg)
+  40%
+  	transform: scale(1) rotate(0)
+  60% 
+    transform: scale(1.2) rotate(-25deg)
+  100%
+  	transform: scale(1) rotate(0)
+.telegram-content__item--profile
+	//display: none
+
+//end flirtu simulation style
+
+.dislike.active 
+	display: flex
+.like.active
+	display: flex
+
+
+.telegram-content__item--profile.active 
+	display: flex
+	flex-direction: column
+.telegram-content__item--profile
+	opacity: 0
+	box-sizing: border-box
+	height: 0
+	animation-name: fadeIn
+	animation-duration: 1s
+	animation-iteration-count: 1
+	animation-direction: alternate
+	animation-fill-mode: forwards
+	animation-delay: 1s
+
+@keyframes fadeIn
+	0%
+		opacity: 0
+		height: 0
+	100%
+		opacity: 1
+		height: auto
+.profile-footer
+	display: flex 
+	justify-content: space-between
+.profile-time
+	font-size: 1.6vh
+	align-self: flex-end
+	padding: 0.2vh
+	color: #a9aaac
+.content-footer
+	display: flex
+	justify-content: space-between
+	align-items: center
+	background: #fff
+	padding: 0.5vh 1.8vh
+	div 
+		display: flex
+	img 
+		width: 3vh
+	.add-img
+		width: 6vh
+		height: 6vh
+		background: url('../img/img.svg')
+		background-size: 100%
+		background-position: center
+		background-repeat: no-repeat
+	input 
+		outline: none
+		border: none
+		width: 10vh
+		padding: 0
+		font-size: 2vh
+		text-align: left
+		display: block
+		margin-left: 1vh
+
+.add-doc 
+	width: 3vh
+	height: 6vh
+	background: url('../img/98520.svg')
+	background-size: 100%
+	background-position: center
+	background-repeat: no-repeat
+.smile
+	width: 3vh
+	height: 3vh
+	background: url('../img/smiley-svgrepo-com.svg')
+	background-size: 100%
+	background-position: center
+	background-repeat: no-repeat
+.flirtu-simulation-container.blure 
+	filter: blur(4px)
+
+.flirtu-simulation
+	position: relative
+.flirtu-simulation-modal
+	background: #fff
+	position: absolute 
+	top: 50%
+	left: 50%
+	transform: translateY(-50%) translateX(-50%)
+	z-index: 99
+	text-align: center
+	border-radius: 1vh
+	padding: 3vh 2vh
+	width: 22vh
+	font-size: 2.5vh
+.open-telegram
+	display: flex 
+	justify-content: center 
+	align-items: center
+	text-decoration: none
+	background: #426382
+	color: #fff
+	margin-top: 2vh
+	padding: 1vh 2vh
+	border-radius: 0.6vh
+	text-transform: uppercase
+	font-size: 2vh
+
+.telegram-content__item--profile
+	position: relative
+.telegram-content__item--profile:after 
+	content: ''
+	width: 3vh
+	height: 3vh 
+	background-color: rgba(#000, 0.1)
+	background-image: url('../img/share.svg')
+	background-size: 2vh
+	background-repeat: no-repeat 
+	background-position: center
+	position: absolute 
+	right: -1.5vh
+	bottom: 0
+	border-radius: 50%
+.like-time
+
+	font-size: 1.6vh
+	align-self: flex-end
+	background-color: rgba(#000, 0.1)
+	color: #fff
+	display: flex
+	align-items: center
+	padding: 0.2vh 0.4vh
+	border-radius: 0.5vh
+	transform: translateY(-50%)
+	img 
+		width: 1.8vh
+		margin-left: 0.3vh
+.date
+	font-size: 2vh 
+	align-self: center
+	background-color: rgba(#000, 0.1)
+	color: #fff
+	display: flex
+	align-items: center
+	padding: 0.3vh 1.5vh
+	border-radius: 1vh
+.text-wrapper 
+	margin: 0 auto	
+	font-size: 2.5vh
+	width: 600px
+	max-width: 90%
+	margin-top: 2vh
+	a 
+		color: #000
+		font-weight: 700
+.bold 
+	font-weight: 700
+	text-align: center
+	font-size: 3vh
+.bold--s 
+	font-size: 2.5vh
+
+.button-animation 
+  position: relative
+  text-decoration: none
+  color: #fff
+  overflow: hidden
+  &:before 
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 5vh
+    height: 100%
+    background-color: rgba(#fff, 1)
+    transform: translateX(-4em) skewX(-45deg)
+    animation: move-light
+    animation-iteration-count: infinite
+    
+    animation-duration: 5s 
+    animation-delay: 2s
+    
+ 
+@keyframes move-light
+  0%
+  	transform: translateX(-4em) skewX(-45deg)
+  20%
+  	transform: translateX(10em) skewX(-45deg)
+  100%
+  	transform: translateX(10em) skewX(-45deg) 
+
+
+.button-s.like-button 
+	&:before 
+		animation: move-light2
+		animation-iteration-count: infinite
+		animation-duration: 5s
+		animation-delay: 2s
+		transform: translateX(-4em) skewX(-45deg)
+@keyframes move-light2
+  0%
+  	transform: translateX(-4em) skewX(-45deg)
+  50%
+  	transform: translateX(-4em) skewX(-45deg)
+  70%
+  	transform: translateX(10em) skewX(-45deg) 
+  100%
+  	transform: translateX(10em) skewX(-45deg) 
+
+.button-animation 
+ 	span 
+ 		display: block
+ 		animation: scale-anim
+ 		animation-iteration-count: infinite
+
+ 		animation-duration: 5s
+ 		animation-delay: 3s
+ 		
+ 		transform: scale(1) rotate(0)
+
+.button-animation.like-button
+	span
+		animation: scale-anim2
+		animation-iteration-count: infinite
+		animation-duration: 5s
+		animation-delay: 3s		
+		transform: scale(1)
+@keyframes scale-anim
+  0%
+    transform: scale(1) rotate(0)
+  5%
+   	transform: scale(1.6) rotate(25deg)
+  10%
+  	transform: scale(1) rotate(0)
+  15% 
+    transform: scale(1.6) rotate(-25deg)
+  20%
+  	transform: scale(1) rotate(0)
+  100% 
+   	transform: scale(1) rotate(0)
+@keyframes scale-anim2
+  0%
+    transform: scale(1) rotate(0)
+  50%
+   	transform: scale(1) rotate(0)
+  55%
+  	transform: scale(1.6) rotate(25deg)
+  60%
+  	transform: scale(1) rotate(0)
+  65%
+  	transform: scale(1.6) rotate(-25deg)
+  70%
+  	transform: scale(1) rotate(0)
+  100% 
+  	transform: scale(1) rotate(0)
+
+.finger
+	position: absolute
+	top: 50vh
+	right: 40vw
+	font-size: 15vh
+	z-index: 999
+	transform: rotate(-60deg)
+	animation: jump
+	animation-iteration-count: infinite
+	animation-duration: 1s
+
+@keyframes jump 
+	0% 
+		transform: rotate(-60deg) translateX(-20%)
+	50%
+		transform: rotate(-60deg) translateX(0%)
+	100%
+		transform: rotate(-60deg) translateX(-20%)
+//start button style
+.text-wrapper
+	.green-button 
+		color: #fff
+.green-button
+	display: flex
+	justify-content: center
+	align-items: center
+	background: #00c217
+	color: #fff
+	font-weight: bold
+	font-size: 3vh
+	text-decoration: none
+	padding: 2vh 0
+	border-radius: 1vh
+	background: linear-gradient(#00c217, #0d7319) #0d7319
+.text-wrapper.text-wrapper--button
+	margin-top: 2vh
+//end button style
+//start bage wrapper
+.badge__wrapper
+	display: flex
+	justify-content: center
+	flex-wrap: wrap 
+	padding-top: 1vw
+	padding-bottom: 9vw
+
+.bage-item
+	width: 40%
+	display: flex
+	justify-content: center
+	margin-top: 3vw 
+	margin-bottom: 3vw
+	img 
+		max-width: 25vw
+@import "media"
+
+
+
